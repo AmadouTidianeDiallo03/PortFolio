@@ -1,38 +1,16 @@
 /* Hero Section */
 .hero-section {
-    min-height: calc(100vh - 140px);
-    /* Adjust for navbar + footer heights approx */
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* Animated Mesh Gradient Background */
-    background: radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
-        radial-gradient(at 100% 0%, rgba(139, 92, 246, 0.15) 0px, transparent 50%),
-        radial-gradient(at 100% 100%, rgba(56, 189, 248, 0.15) 0px, transparent 50%),
-        radial-gradient(at 0% 100%, rgba(168, 85, 247, 0.15) 0px, transparent 50%),
-        var(--bg-body);
-    background-size: 200% 200%;
-    animation: gradientMove 15s ease infinite;
     padding: 2rem;
-    overflow: hidden;
     position: relative;
+    /* Optional: subtle background to verify container size if needed, but keeping clean for now */
 }
 
-@keyframes gradientMove {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
 
 .hero-content {
     max-width: 800px;
@@ -44,11 +22,14 @@
     font-weight: 800;
     letter-spacing: -0.02em;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, var(--text-main) 0%, var(--primary-color) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--text-main);
     line-height: 1.1;
+}
+
+.highlight-text {
+    color: var(--primary-color);
+    display: block;
+    margin-top: 0.5rem;
 }
 
 .hero-subtitle {
@@ -56,13 +37,6 @@
     color: var(--text-secondary);
     margin-bottom: 3rem;
     font-weight: 400;
-    opacity: 0;
-    animation: fadeInUp 1s ease-out 0.3s forwards;
-    background: linear-gradient(90deg, var(--text-secondary), var(--primary-color));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    display: inline-block;
 }
 
 .hero-actions {

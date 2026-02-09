@@ -12,7 +12,7 @@ export default function Projects() {
             <div className="container">
                 <h1 className="section-title">Mes Projets</h1>
 
-                <div className="project-grid">
+                <div className="projects-grid">
                     {projects.map((project) => (
                         <CarteProjet key={project.slug} project={project} />
                     ))}
