@@ -1,0 +1,93 @@
+:root {
+  /* Premium Light Theme (Soft Zinc & Vibrant Indigo) */
+  --primary-color: #6366f1;
+  /* Indigo 500 - Modern & Professional */
+  --primary-hover: #4f46e5;
+  /* Indigo 600 */
+
+  /* Soft, Airy Backgrounds */
+  --bg-body: #f8fafc;
+  /* Slate 50 - Very soft cool gray */
+  --bg-header: rgba(255, 255, 255, 0.85);
+  /* Glassy White */
+  --bg-footer: #f1f5f9;
+  /* Slate 100 - Subtle grounding */
+  --bg-card: #ffffff;
+  /* Pure White Surface */
+
+  /* Text - Crisp & Readable */
+  --text-main: #0f172a;
+  /* Slate 900 - Deep & Sharp */
+  --text-secondary: #64748b;
+  /* Slate 500 - Soft Gray */
+
+  /* UI Elements */
+  --border-color: #e2e8f0;
+  /* Slate 200 - Very subtle */
+  --success-color: #10b981;
+  /* Emerald 500 */
+  --error-color: #ef4444;
+  /* Red 500 */
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --container-width: 1200px;
+
+  /* Radius & Shadow - Soft & Modern */
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+
+  /* Transitions */
+  --transition: all 0.2s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  margin-bottom: var(--spacing-sm);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
