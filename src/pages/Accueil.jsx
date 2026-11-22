@@ -13,6 +13,7 @@ import {
     MapPinIcon,
     BriefcaseIcon,
     UserCheckIcon,
+    MailIcon,
 } from "../components/Icons";
 import "../styles/home.css";
 
@@ -121,6 +122,10 @@ export default function Home() {
                                     <span>Disponible à temps plein, dès maintenant</span>
                                 </li>
                             </ul>
+                            <a href={`mailto:${PERSON.email}`} className="profile-email">
+                                <MailIcon width="18" height="18" />
+                                <span>{PERSON.email}</span>
+                            </a>
                         </aside>
                     </div>
                 </div>
