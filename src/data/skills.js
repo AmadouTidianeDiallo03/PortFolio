@@ -4,6 +4,8 @@ export const skills = [
         items: [
             "C# (POO)",
             "Python",
+            "SQL",
+            "ASP.NET",
             "Django",
             "JavaScript",
             "Node.js",
@@ -35,6 +37,7 @@ export const skills = [
         category: "Savoir-être & Autres",
         items: [
             "Développement Agile (Scrum)",
+            "UML",
             "Travail d'équipe",
             "Bonne organisation",
             "Capacité d'adaptation",

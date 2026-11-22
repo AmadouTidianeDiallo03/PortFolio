@@ -75,7 +75,7 @@ export default function About() {
                             <div>
                                 <p className="contact-label">Formation</p>
                                 <p style={{ color: "var(--text-secondary)", fontSize: "0.95rem", lineHeight: "1.5" }}>
-                                    Baccalauréat en informatique (Diplômé)<br />
+                                    Baccalauréat en informatique (Diplômé, 2023 – 2026)<br />
                                     UQAR - Campus de Lévis
                                 </p>
                             </div>
