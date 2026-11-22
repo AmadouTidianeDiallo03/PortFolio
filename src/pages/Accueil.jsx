@@ -12,6 +12,10 @@ export default function Home() {
             <section className="hero-section">
                 <div className="container hero-container">
                     <div className="hero-content">
+                        <span className="availability-badge">
+                            <span className="availability-dot" aria-hidden="true"></span>
+                            {PERSON.availability} · Recherche d'un premier emploi
+                        </span>
                         <h1 className="hero-title">
                             Bonjour, je suis <br />
                             <span className="highlight-text">{PERSON.name}</span>

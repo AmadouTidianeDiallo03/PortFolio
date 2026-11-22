@@ -1,6 +1,7 @@
 export const PERSON = {
     name: "Amadou Tidiane Diallo",
-    tagline: "Étudiant en fin de cycle de baccalauréat en informatique",
+    tagline: "Diplômé d'un baccalauréat en informatique, à la recherche d'une première expérience professionnelle en développement",
+    availability: "Disponible immédiatement",
     email: "Tidiane24796@gmail.com",
     linkedin: "https://linkedin.com/in/votre-profil",
     github: "https://github.com/AmadouTidianeDiallo03",
@@ -14,6 +15,6 @@ export const PERSON = {
 
 export const SITE_CONFIG = {
     title: "Portfolio | Amadou Tidiane Diallo",
-    description: "Portfolio de développeur étudiant. Projets React, Web, Data.",
+    description: "Portfolio d'un développeur junior diplômé en informatique. Projets React, Web, Data.",
     url: "https://votre-portfolio.netlify.app",
 };
