@@ -272,12 +272,12 @@
 
     .hero-content {
         text-align: center;
-        order: 2;
+        order: 1;
     }
 
     .hero-visual {
-        order: 1;
-        height: 300px;
+        order: 2;
+        height: auto;
     }
 
     .hero-actions {
@@ -321,4 +321,207 @@
     0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6); }
     70% { box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
     100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+/* Accroche */
+.hero-hook {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: var(--text-main);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+.btn-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.9rem 0.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: transform 0.2s;
+}
+
+.btn-link:hover {
+    transform: translateX(4px);
+}
+
+/* Carte de profil */
+.profile-card {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 360px;
+    padding: 2rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 20px 50px -15px rgba(15, 23, 42, 0.18);
+    text-align: left;
+}
+
+.profile-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+    color: white;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    margin-bottom: 1rem;
+}
+
+.profile-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin: 0;
+}
+
+.profile-role {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0.25rem 0 1.25rem;
+}
+
+.profile-facts {
+    list-style: none;
+    padding: 1.25rem 0 0;
+    margin: 0;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.profile-facts li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.92rem;
+    color: var(--text-main);
+    line-height: 1.4;
+}
+
+.profile-facts svg {
+    flex-shrink: 0;
+    color: var(--primary-color);
+    margin-top: 1px;
+}
+
+/* Domaines TI */
+.domains-section {
+    padding: 2rem 0 5rem;
+}
+
+.domains-header {
+    max-width: 640px;
+    margin-bottom: 2.5rem;
+}
+
+.domains-eyebrow {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.domains-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-main);
+    margin-bottom: 0.75rem;
+}
+
+.domains-intro {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.domains-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+}
+
+.domain-card {
+    padding: 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+}
+
+.domain-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(99, 102, 241, 0.4);
+    box-shadow: 0 12px 30px -12px rgba(99, 102, 241, 0.3);
+}
+
+.domain-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.domain-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 0.35rem;
+}
+
+.domain-card p {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.85rem;
+}
+
+.domain-tools {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+@media (max-width: 968px) {
+    .profile-card {
+        margin: 0 auto;
+    }
+
+    .hero-visual {
+        height: auto;
+    }
+
+    .hero-hook {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .domains-header {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .domains-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .domains-grid {
+        grid-template-columns: 1fr;
+    }
 }

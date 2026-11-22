@@ -27,7 +27,7 @@ export default function About() {
                         </p>
                         <p style={{ marginBottom: "1.5rem", lineHeight: "1.7", color: "var(--text-secondary)" }}>
                             Je suis diplômé d’un baccalauréat en informatique de l’<strong>Université du Québec à Rimouski</strong>.
-                            Je suis maintenant <strong>à la recherche active d’une première expérience professionnelle</strong> (poste de développeur junior ou emploi en TI)
+                            Je suis maintenant <strong>à la recherche active d’une première expérience professionnelle</strong> dans les TI : développement, soutien technique, réseaux, sécurité, bases de données ou tout autre poste où je pourrai apprendre et contribuer
                             afin de mettre mes compétences au service d’une équipe et de continuer à progresser.
                         </p>
 
@@ -49,7 +49,7 @@ export default function About() {
                             <div>
                                 <p className="contact-label">Objectif</p>
                                 <p style={{ color: "var(--text-secondary)", fontSize: "0.95rem", lineHeight: "1.5" }}>
-                                    Décrocher un premier poste en informatique où je pourrai appliquer mes compétences (C#, Python, React...), contribuer à des projets concrets et apprendre auprès d'une équipe expérimentée.
+                                    Décrocher une première opportunité dans les TI, quel que soit le domaine, pour mettre à profit ma formation généraliste, contribuer à des projets concrets et apprendre auprès d'une équipe expérimentée.
                                 </p>
                             </div>
                         </div>

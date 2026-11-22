@@ -1,6 +1,6 @@
 export const PERSON = {
     name: "Amadou Tidiane Diallo",
-    tagline: "Diplômé d'un baccalauréat en informatique, à la recherche d'une première expérience professionnelle en développement",
+    tagline: "Diplômé d'un baccalauréat en informatique de l'UQAR, je recherche ma première expérience professionnelle dans les technologies de l'information.",
     availability: "Disponible immédiatement",
     email: "Tidiane24796@gmail.com",
     linkedin: "https://www.linkedin.com/in/amadou-tidiane-diallo-9b2bb23aa/",
@@ -15,6 +15,6 @@ export const PERSON = {
 
 export const SITE_CONFIG = {
     title: "Portfolio | Amadou Tidiane Diallo",
-    description: "Portfolio d'un développeur junior diplômé en informatique. Projets React, Web, Data.",
+    description: "Portfolio d'Amadou Tidiane Diallo, diplômé en informatique et ouvert à tous les métiers des TI : développement, soutien technique, réseaux, sécurité, bases de données.",
     url: "https://port-folio-lyart-alpha.vercel.app",
 };
