@@ -49,7 +49,12 @@ export default function Contact() {
                             </div>
                             <div>
                                 <p className="contact-label">Courriel</p>
-                                <p className="contact-value">{PERSON.email}</p>
+                                <p className="contact-value">
+                                    <a href={`mailto:${PERSON.email}`}>{PERSON.email}</a>
+                                </p>
+                                <p className="contact-value" style={{ fontSize: "0.9rem", opacity: 0.85 }}>
+                                    <a href={`mailto:${PERSON.emailAlt}`}>{PERSON.emailAlt}</a>
+                                </p>
                             </div>
                         </div>
 
