@@ -3,7 +3,7 @@ export const PERSON = {
     tagline: "Diplômé d'un baccalauréat en informatique, à la recherche d'une première expérience professionnelle en développement",
     availability: "Disponible immédiatement",
     email: "Tidiane24796@gmail.com",
-    linkedin: "https://linkedin.com/in/votre-profil",
+    linkedin: "https://www.linkedin.com/in/amadou-tidiane-diallo-9b2bb23aa/",
     github: "https://github.com/AmadouTidianeDiallo03",
     location: "Québec, QC",
     address: "G1H 5W7, Québec, QC",
