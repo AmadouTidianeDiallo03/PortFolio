@@ -16,5 +16,5 @@ export const PERSON = {
 export const SITE_CONFIG = {
     title: "Portfolio | Amadou Tidiane Diallo",
     description: "Portfolio d'un développeur junior diplômé en informatique. Projets React, Web, Data.",
-    url: "https://votre-portfolio.netlify.app",
+    url: "https://port-folio-lyart-alpha.vercel.app",
 };

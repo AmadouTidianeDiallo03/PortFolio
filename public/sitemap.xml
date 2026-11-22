@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://votre-portfolio.netlify.app/</loc>
+    <loc>https://port-folio-lyart-alpha.vercel.app/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://votre-portfolio.netlify.app/projects</loc>
+    <loc>https://port-folio-lyart-alpha.vercel.app/projets</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://votre-portfolio.netlify.app/skills</loc>
+    <loc>https://port-folio-lyart-alpha.vercel.app/competences</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://votre-portfolio.netlify.app/about</loc>
+    <loc>https://port-folio-lyart-alpha.vercel.app/a-propos</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://votre-portfolio.netlify.app/resume</loc>
+    <loc>https://port-folio-lyart-alpha.vercel.app/cv</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://votre-portfolio.netlify.app/contact</loc>
+    <loc>https://port-folio-lyart-alpha.vercel.app/contact</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
