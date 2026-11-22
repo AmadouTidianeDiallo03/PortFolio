@@ -12,7 +12,7 @@ export default function About() {
                 <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto 3rem auto" }}>
                     <h1 className="section-title">À Propos de Moi</h1>
                     <p style={{ fontSize: "1.2rem", color: "var(--text-secondary)" }}>
-                        Étudiant passionné par l'informatique, curieux et déterminé.
+                        Jeune diplômé en informatique, passionné, curieux et déterminé.
                     </p>
                 </div>
 
@@ -26,8 +26,9 @@ export default function About() {
                             Bonjour ! Je m'appelle <strong style={{ color: "var(--text-main)" }}>{PERSON.name}</strong>.
                         </p>
                         <p style={{ marginBottom: "1.5rem", lineHeight: "1.7", color: "var(--text-secondary)" }}>
-                            Je suis étudiant en fin de cycle de baccalauréat en informatique à l’<strong>Université du Québec à Rimouski</strong>.
-                            Actuellement, <strong>je suis à la recherche active d’un stage ou d’un emploi étudiant</strong> pour mettre mes compétences à l'épreuve.
+                            Je suis diplômé d’un baccalauréat en informatique de l’<strong>Université du Québec à Rimouski</strong>.
+                            Je suis maintenant <strong>à la recherche active d’une première expérience professionnelle</strong> (poste de développeur junior ou emploi en TI)
+                            afin de mettre mes compétences au service d’une équipe et de continuer à progresser.
                         </p>
 
                         <div style={{ marginTop: "auto", paddingTop: "1rem" }}>
@@ -48,7 +49,7 @@ export default function About() {
                             <div>
                                 <p className="contact-label">Objectif</p>
                                 <p style={{ color: "var(--text-secondary)", fontSize: "0.95rem", lineHeight: "1.5" }}>
-                                    Appliquer mes compétences techniques (C#, Python, React...) dans un environnement professionnel et apprendre auprès d'experts.
+                                    Décrocher un premier poste en informatique où je pourrai appliquer mes compétences (C#, Python, React...), contribuer à des projets concrets et apprendre auprès d'une équipe expérimentée.
                                 </p>
                             </div>
                         </div>
@@ -74,7 +75,7 @@ export default function About() {
                             <div>
                                 <p className="contact-label">Formation</p>
                                 <p style={{ color: "var(--text-secondary)", fontSize: "0.95rem", lineHeight: "1.5" }}>
-                                    Baccalauréat en informatique (Fin de cycle)<br />
+                                    Baccalauréat en informatique (Diplômé, 2023 – 2026)<br />
                                     UQAR - Campus de Lévis
                                 </p>
                             </div>
