@@ -532,11 +532,11 @@
     justify-content: center;
     gap: 0.5rem;
     margin-top: 1.25rem;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 0.5rem;
     border-radius: var(--radius-md);
     background: rgba(99, 102, 241, 0.08);
     color: var(--primary-color);
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: 600;
     overflow-wrap: anywhere;
     transition: background 0.2s;
